@@ -1,0 +1,237 @@
+@import url('stylesheets/demo.css');
+@import url('stylesheets/font-awesome.css');
+/* css for tab*/
+
+article.tabs
+{
+	position: absolute;
+	display: block;
+	width: 450px;
+	height: 250px;
+	background-color:#8ea145;
+}
+
+/* tab position */
+article.tabs section
+{
+	position: absolute;
+	display: block;
+	top: 25px;
+	left: 1px;
+	height: 224px;
+	width: 448px;
+	padding: 10px 20px;
+	background-color: #8ea145;
+	border-radius: 0px;
+	box-shadow: o 3px 3px rgba(0,0,0,0.1);
+	z-index: 0;
+}
+
+article.tabs section:first-child
+{
+	z-index: 1;
+}
+ section h2
+{
+	position: absolute;
+	font-size: 1em;
+	font-weight: 300;
+	width: 148px;
+	height: 1.9em;
+	top: -1.8em;
+	left: 0px;
+	padding: 0;
+	margin: 0;
+	color: #8ea145;
+	background-color:white;
+	border-radius: 0px 40px 0 0;
+}
+
+article.tabs section:nth-child(2) h2
+{
+	left: 150px;
+}
+
+article.tabs section:nth-child(3) h2
+{
+	left: 299px;
+}
+
+article.tabs section h2 a
+{
+	display: block;
+	width: 100%;
+	line-height: 1.8em;
+	text-align: center;
+	text-decoration: none;
+	color: inherit;
+	outline: 0 none;
+}
+
+article.tabs section:target,
+article.tabs section:target h2
+{
+	color: white;
+	background-color: #8ea145;
+	z-index: 2;
+}
+
+article.tabs section,
+article.tabs section h2
+{
+	-webkit-transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	-ms-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: all 500ms ease;
+}
+
+ css code for search in tab3
+
+.cf:before, .cf:after{
+    content:"";
+    display:table;
+}
+ 
+.cf:after{
+    clear:both;
+}
+ 
+.cf{
+    zoom:1;
+}    
+
+/* Form wrapper styling */
+.form-wrappers {
+    width: 370px;
+    padding: 20px;
+    margin: 30px auto 50px 18px;
+    background: #003300;
+   /* background: rgba(0,0,0,.2);*/
+    border-radius: 10px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.4) inset, 0 1px 0 rgba(255,255,255,.2);
+}
+ 
+/* Form text input */
+ 
+.form-wrappers input {
+    width: 220px;
+    height: 70px;
+    padding: 10px 5px;
+    float: left;    
+    font: bold 15px 'lucida sans', 'trebuchet MS', 'Tahoma';
+    border: 0;
+    background: white;
+    border-radius: 3px 0 0 3px;      
+}
+ 
+.form-wrappers input:focus {
+    outline: 0;
+    background: #fff;
+    box-shadow: 0 0 2px rgba(0,0,0,.8) inset;
+}
+ 
+.form-wrappers input::-webkit-input-placeholder {
+   color: black;
+   font-weight: normal;
+   font-style: italic;
+}
+ 
+.form-wrappers input:-moz-placeholder {
+    color: black;
+    font-weight: normal;
+    font-style: italic;
+}
+ 
+.form-wrappers input:-ms-input-placeholder {
+    color: black;
+    font-weight: normal;
+    font-style: italic;
+}    
+ 
+/* Form submit button */
+.form-wrappers button {
+    overflow: visible;
+    position: relative;
+    float: right;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    height: 40px;
+    width: 100px;
+    font: bold 15px/40px 'lucida sans', 'trebuchet MS', 'Tahoma';
+    color: white;
+    text-transform: uppercase;
+    background: #8ea145;
+    border-radius: 0 3px 3px 0;      
+    text-shadow: 0 -1px 0 rgba(0, 0 ,0, .3);
+}   
+   
+.form-wrappers button:hover{     
+    background: #669900;
+}   
+   
+.form-wrappers button:active,
+.form-wrappers button:focus{   
+    background: #8ea145;
+    outline: 0;   
+}
+ 
+.form-wrappers button:before { /* left arrow */
+    content: '';
+    position: absolute;
+    border-width: 8px 8px 8px 0;
+    border-style: solid solid solid none;
+    border-color: transparent #8ea145 transparent;
+    top: 12px;
+    left: -6px;
+}
+ 
+.form-wrappers button:hover:before{
+    border-right-color: #669900;
+}
+ 
+.form-wrappers button:focus:before,
+.form-wrappers button:active:before{
+        border-right-color: #8ea145;
+}      
+ 
+.form-wrappers button::-moz-focus-inner { /* remove extra button spacing for Mozilla Firefox */
+    border: 0;
+    padding: 0;
+}
+
+/***FIRST STYLE THE BUTTON***/
+input#bigbutton {
+width:160px;
+margin-top:70px;
+margin-left:130px;
+background: white; /*the colour of the button*/
+padding: 8px 14px 10px; /*apply some padding inside the button*/
+border:1px solid white; /*required or the default border for the browser will appear*/
+cursor:pointer; /*forces the cursor to change to a hand when the button is hovered*/
+/*style the text*/
+font-size:2em;
+text-align:center;
+font-style:oblique;
+font-family:Oswald, sans-serif; /*Oswald is available from http://www.google.com/webfonts/specimen/Oswald*/
+letter-spacing:.0em;
+text-shadow: 0 -1px 0px rgba(0, 0, 0, 0.3); /*give the text a shadow - doesn't appear in Opera 12.02 or earlier*/
+color: #8ea145;
+/*use box-shadow to give the button some depth - see cssdemos.tupence.co.uk/box-shadow.htm#demo7 for more info on this technique*/
+-webkit-box-shadow: inset 0px 1px 0px white, 0px 5px 0px 0px white, 0px 1px 5px white;
+-moz-box-shadow: inset 0px 1px 0px white, 0px 5px 0px 0px white, 0px 1px 5px white;
+box-shadow: inset 0px 1px 0px white, 0px 5px 0px 0px white, 0px 1px 5px white;
+/*give the corners a small curve*/
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+border-radius: 10px;
+}
+/***SET THE BUTTON'S HOVER AND FOCUS STATES***/
+input#bigbutton:hover, input#bigbutton:focus {
+color:#8ea145;
+/*reduce the size of the shadow to give a pushed effect*/
+-webkit-box-shadow: inset 0px 1px 0px white, 0px 2px 0px 0px white, 0px 2px 5px white;
+-moz-box-shadow: inset 0px 1px 0px white, 0px 2px 0px 0px white, 0px 2px 5px white;
+box-shadow: inset 0px 1px 0px white, 0px 2px 0px 0px white, 0px 2px 5px white;
+}
