@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8"/>
+<!-- Set the viewport width to device width for mobile -->
+<meta name="viewport" content="width=device-width"/>
+<title>Celebration Spot</title>
+<!-- Included CSS Files-->
+<link rel="stylesheet" href="stylesheets/style.css">
+<link rel="stylesheet" href="stylesheets/skins/green.css"><!-- skin color -->
+<link rel="stylesheet" href="stylesheets/responsive.css">
+<link href="stylesheets/search.css" rel="stylesheet">
+<link href="stylesheets/signup.css" rel="stylesheet">
+<!-- IE Fix for HTML5 Tags -->
+<!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+<body>
+<!-- HIDDEN PANEL 
+================================================== -->
+<div id="panel">
+	<div class="row">
+		<div class="twelve columns">
+			
+			<div class="infotext">
+				<p align=right style="margin-top:-30px"><table width=80% style="height:20px;background-color:#8ea145;margin-left:300px;"  ><tr><td>Username :</td><td><input type=text style="width:100px;height:20px" ></td><td>Password : </td><td><input type=text style="width:100px;height:20px"></td><td><a href="#" style="color:#000099">Forget Password??</a></td><td> <button id="bt"><a href="#" class="topopup">Login</a></button> <button id="bt"><a href="#" class="topopup">Sign Up</a></button></td></tr></table>
+				   
+    <div id="toPopup"> 
+    	
+        <div class="close"></div>
+       	<span class="ecs_tooltip">Press Esc to close <span class="arrow"></span></span>
+		<div id="popup_content"> <!--your content start-->
+        <form name="UserRegistration" method="post" action="" >
+            <table border="1" align="center" >
+            <tr>
+                <td>Username</td>
+                <td><input type="text" name="name" value=""></td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td><input type="password" name="pass" value=""></td>
+            </tr>
+            <tr>
+                <td>Email-id</td>
+                <td><input type="text" name="emailId" value=""></td>
+            </tr>
+            <tr>
+                <td>Area</td>
+                <td>
+                <select name="area">
+                    <optgroup label="Ahmedabad">
+                    <option value="Maninagar">Maninagar</option>
+                    <option value="Isnpur">Naroda</option>
+                    <option value="Naranpura">Naranpura</option>
+                    </optgroup>
+                </select>
+                </td>
+            </tr> 
+            <tr>
+                <td>Gender</td>
+                <td>
+                    <input type="radio" name="gen" value="male" >male
+                    <input type="radio" name="gen" value="female">female
+                </td>
+            </tr>
+            <tr>
+                <td>Contact No</td>
+                <td>    
+                    <input type="text" name="contactNo" value=""/>
+                </td>
+            </tr>
+    
+            <tr>
+                <td colspan="2"><center>  <input class="button" value="submit" type="submit" name="submit" /></td>
+                </center>
+            </tr>
+            </table>
+            </form>
+
+            <!--<p align="center"><a href="#" class="livebox">Click Here Trigger</a></p>-->
+        </div> <!--your content end-->
+    
+    </div> <!--toPopup end-->
+    
+	<div class="loader"></div>
+   	<div id="backgroundPopup">
+    </div></p>
+				
+			</div>
+			
+		</div>
+		
+	</div>
+	
+</div>
+<p class="slide">
+	<a href="#" class="btn-slide"><img src="images/fing2.jpg" height="30px" width="20px"><font size="2" color="#0000CC">Login</font></a>
+</p>
+<!-- HEADER
+================================================== -->
+<div class="row">	
+		<div class="four columns">
+			<div class="logo">
+				<a href="index.html"><img src="images/Celebration venue/logo.png" width="180px" style="margin-top:-10px;" height="28px"></a>
+			</div>
+		</div>
+		<div class="eight columns noleftmarg">		
+			<nav id="nav-wrap">
+				<ul class="nav-bar sf-menu">
+				
+					<li class="current">
+					<a href="index.html">Home</a>
+						<!--<ul>
+												
+						<li><a href="index2.html">Without slider</a></li>						
+						</ul>-->
+					</li>
+					
+					<li>
+					<a href="portofolio2.html">Gallery</a>
+						<!--<ul>
+						<li><a href="portofolio2.html">Party Plot</a></li>
+						<li><a href="portofolio2.html">Banquet</a></li>
+						<li><a href="portofolio2.html">Community Hall</a></li>						
+						<!--<li><a href="portofoliodetail.html">Project Details</a></li>
+						</ul>-->
+					</li>
+					
+					<!--<li>
+					<a href="#">Blog</a>
+						<ul>
+						<li><a href="blogpage1.html">Blog page style 1</a></li>
+						<li><a href="blogpage2.html">Blog page style 2</a></li>
+						<li><a href="blogpage3.html">Blog page style 3</a></li>
+						<li><a href="blogsinglepost.html">Single post</a></li>
+						</ul>
+					</li>-->
+					
+					<li>
+					<a href="#">Pages</a>
+						<ul>
+						<li><a href="about.html">About us</a></li>
+						<li><a href="services.html">Services</a></li>						
+						</ul>
+					</li>
+					
+					<!--<li>
+					<a href="#">Features</a>
+						<ul>
+						<li><a href="columns.html">Columns</a></li>
+						<li><a href="elements.html">Elements</a></li>
+						<li><a href="typography.html">Typography</a></li>
+						</ul>
+					</li>-->
+					
+					<li>
+					<a href="contact.html">Contact</a>
+					</li>
+					<li>
+					<form >
+   						 <span class="form-wrapper"><input type="text" id="search" placeholder="Search your celebration spot..." required></span>
+   						 <span class="form-wrapper"> <input type="submit" value="go" id="submit"> </span>
+					</form>
+					</li>
+				</ul>
+				</nav>
+		</div>	
+</div>
+<div class="clear">
+</div>
+<!-- SUBHEADER
+================================================== -->
+<div id="subheader">
+	<div class="row">
+		<div class="twelve columns">
+			<p class="left">
+				 OUR SERVICES
+			</p>
+			<!--<p class="right">
+				 Request a free quote
+			</p>-->
+		</div>
+	</div>
+</div>
+<div class="hr">
+</div>
+<!-- CONTENT 
+================================================== -->
+<div class="row">
+    <!-- MAIN CONTENT-->
+	<div class="eight columns">
+		<div class="sectiontitle">
+			<h4>What we offer</h4>
+		</div>
+		<!-- Services List-->
+		<div class="six columns noleftmargin">			
+			<h5 class="sidebartitle">Find all the venues at one place</h5>
+			<p>	
+			<img src="images/settings.png" class="pics" alt=""> We provide the best available place for the celebration online with all the details from the features of that venue to the kind of minute services provided there in Ahmedabad at the same place without any headache of attending all places and go through the manual procedure. 
+			</p>
+		</div>
+		<div class="six columns noleftmargin">
+			<h5 class="sidebartitle">Online Booking</h5>
+			<p>
+			<img src="images/settings.png" class="pics" alt=""> We proivde the online booking facilities for his/her dream venue with very easy payment process,so person have no need to attend that place physically and go through the manual procedure and give the surety about the booking.                                                                         
+			</p>
+		</div>
+		<div class="six columns noleftmargin">
+			<h5 class="sidebartitle">Easy and Quick Search</h5>
+			<p>
+			<img src="images/settings.png" class="pics" alt="">We provide all this facilities in this website including the Categories according to particular areas and name of the venue with the facility of Google Map, so people can find their celebration venues more easily and quickly
+			</p>
+		</div>
+		<div class="six columns noleftmargin">
+			<h5 class="sidebartitle">Discounts and Offers</h5>
+			<p>
+			<img src="images/settings.png" class="pics" alt="">We also provide the discounts and special offers for the booking which is provided by the service provider and which available at the moment
+			</p>
+		</div>
+		<div class="clear">
+		</div>
+		<br/>
+		<div class="panel">
+			<p>
+				<b>As we are living in the 21st century everything is done at the tip of fingers and mostly all the works are done through Online.Same way with the help of this service everybody can fetch the details and book their celebration spot online, which would be more stress less than before.
+</b>
+			</p>
+		</div>		
+	</div><!-- end main content-->
+	
+    <!-- SIDEBAR-->
+	<div class="four columns">
+	    <!-- Free Quote Form-->
+		<h5>Any Questions in your mind?</h5>
+		<p>
+			Any doubt in your mind write here and our team will contact you as soon as possible.
+		</p>
+		<div class="done">
+				<div class="alert-box success">
+				 Message has been sent! <a href="" class="close">x</a>
+				</div>
+		</div>
+		<div class="form">
+			<form method="post" action="contact.php" id="contactform">
+				<input type="text" name="name" class="smoothborder" placeholder="Your name *"/>
+				<input type="text" name="email" class="smoothborder" placeholder="E-mail address *"/>
+				<textarea name="comment" class="smoothborder" rows="6" placeholder="write your questions"></textarea>
+				<input type="submit" id="submit" class="readmore" value="Submit">
+			</form>
+		</div>
+		<br/>
+		<!-- Accordion-->
+		<!--<ul class="accordion">
+			<li class="active">
+			<div class="title">
+				<b>Don't miss our treats</b>
+			</div>
+			<div class="content accordiontrick">
+				<p>
+					 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+				</p>
+			</div>
+			</li>
+			<li class="">
+			<div class="title">
+				<b>Holiday Services</b>
+			</div>
+			<div class="content accordiontrick">
+				<p>
+					 Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+				</p>
+				<p>
+					 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+				</p>
+			</div>
+			</li>
+		</ul>-->
+	</div><!-- end sidebar-->
+</div>
+<div class="hr">
+</div>
+<!-- TWITTER
+================================================== -->
+<!--<div class="tweetarea">
+	<div class="tweettext">
+		<div class="row">
+			<div class="twelve columns">
+				<div class="tweet">
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- FOOOTER 
+================================================== -->
+<div id="footer">
+	<footer class="row">
+	<p class="back-top floatright">
+		<a href="#top"><span></span></a>
+	</p>
+	<div class="four columns">
+		<a href="about.html"><h1>ABOUT US</h1></a>
+		 Our goal is to keep clients satisfied!
+	</div>
+	<div class="four columns">
+		<h1>GET SOCIAL</h1>
+		<div class="social facebook">
+			<a href="https://www.facebook.com/"><img src="images/socialpack/facebooka.png"></a>
+		</div>
+		<div class="social twitter">
+			<a href="https://twitter.com/‎"><img src="images/socialpack/twittera.png"></a>
+		</div>
+		<div class="social linkdin">
+			<a href="https://in.linkedin.com"><img src="images/socialpack/linkdin.png"></a>
+		</div>
+	</div>
+	<div class="four columns">
+		<h1 class="newsmargin">NEWSLETTER</h1>
+		<div class="row collapse newsletter floatright">
+			<div class="ten mobile-three columns">
+				<input type="text" class="nomargin" placeholder="Enter your e-mail address...">
+			</div>
+			<div class="two mobile-one columns">
+				<a href="#" class="postfix button expand">GO</a>
+			</div>
+		</div>
+	</div>
+	</footer>
+</div>
+<!--<div class="copyright">
+	<div class="row">
+		<div class="six columns">
+			 &copy;<span class="small"> Copyright 2013 Your Agency Name</span>
+		</div>
+		<div class="six columns">
+			<span class="small floatright"> Purchase "Studio Francesca" - WowThemes.net</span>
+		</div>
+	</div>
+</div>-->
+<!-- JAVASCRIPTS 
+================================================== -->
+<!-- Javascript files placed here for faster loading -->
+<script src="javascripts/foundation.min.js"></script>
+<script src="javascripts/formvalidation.js"></script>
+<script src="javascripts/jquery.cycle.js"></script>
+<script src="javascripts/app.js"></script>
+<script src="javascripts/modernizr.foundation.js"></script>
+<script src="javascripts/slidepanel.js"></script>
+<script src="javascripts/scrolltotop.js"></script>
+<script src="javascripts/hoverIntent.js"></script>
+<script src="javascripts/superfish.js"></script>
+<script src="javascripts/responsivemenu.js"></script>
+<script src="javascripts/jquery.tweet.js"></script>
+<script src="javascripts/twitterusername.js"></script>
+</body>
+</html>

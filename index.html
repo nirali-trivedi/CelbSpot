@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8"/>
+<!-- Set the viewport width to device width for mobile -->
+<meta name="viewport" content="width=device-width"/>
+<title>Celebration Spot</title>
+<!-- CSS Files-->
+<link rel="stylesheet" href="stylesheets/stylefortab.css">
+<link href="stylesheets/css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="stylesheets/style.css">
+<link rel="stylesheet" href="stylesheets/homepage.css"><!-- homepage stylesheet -->
+<link rel="stylesheet" href="stylesheets/skins/green.css"><!-- skin color -->
+<link rel="stylesheet" href="stylesheets/responsive.css">
+<link href="stylesheets/search.css" rel="stylesheet">
+<link rel="stylesheet" href="stylesheets/sp style.css">
+<link href="stylesheets/signup.css" rel="stylesheet">
+<!-- IE Fix for HTML5 Tags -->
+<!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->    
+</head>
+<body>
+<!-- HIDDEN PANEL ================================================== -->
+<div id="panel">
+	<div class="row">
+		<div class="twelve columns">
+			<div class="infotext">
+				<!--Thank you for visiting our website.
+				-->
+				<p align=right style="margin-top:-30px"><table width=80% style="height:20px;background-color:#8ea145;margin-left:300px;"  ><tr><td>Username :</td><td><input type=text style="width:100px;height:20px" ></td><td>Password : </td><td><input type=text style="width:100px;height:20px"></td><td><a href="#" style="color:#000099">Forget Password??</a></td><td> <button id="bt"><a href="#" class="topopup">Login</a></button> <button id="bt"><a href="#" class="topopup">Sign Up</a></button></td></tr></table>
+				   
+    <div id="toPopup"> 
+    	
+        <div class="close"></div>
+       	<span class="ecs_tooltip">Press Esc to close <span class="arrow"></span></span>
+		<div id="popup_content"> <!--your content start-->
+        <form name="UserRegistration" method="post" action="" >
+            <table border="1" align="center" >
+            <tr>
+                <td>Username</td>
+                <td><input type="text" name="name" value=""></td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td><input type="password" name="pass" value=""></td>
+            </tr>
+            <tr>
+                <td>Email-id</td>
+                <td><input type="text" name="emailId" value=""></td>
+            </tr>
+            <tr>
+                <td>Area</td>
+                <td>
+                <select name="area">
+                    <optgroup label="Ahmedabad">
+                    <option value="Maninagar">Maninagar</option>
+                    <option value="Isnpur">Naroda</option>
+                    <option value="Naranpura">Naranpura</option>
+                    </optgroup>
+                </select>
+                </td>
+            </tr> 
+            <tr>
+                <td>Gender</td>
+                <td>
+                    <input type="radio" name="gen" value="male" >male
+                    <input type="radio" name="gen" value="female">female
+                </td>
+            </tr>
+            <tr>
+                <td>Contact No</td>
+                <td>    
+                    <input type="text" name="contactNo" value=""/>
+                </td>
+            </tr>
+    
+            <tr>
+                <td colspan="2"><center>  <input class="button" value="submit" type="submit" name="submit" /></td>
+                </center>
+            </tr>
+            </table>
+            </form>
+
+            <!--<p align="center"><a href="#" class="livebox">Click Here Trigger</a></p>-->
+        </div> <!--your content end-->
+    
+    </div> <!--toPopup end-->
+    
+	<div class="loader"></div>
+   	<div id="backgroundPopup">
+    </div></p>
+				
+			</div>
+			
+		</div>
+		
+	</div>
+	
+</div>
+
+<p class="slide">
+	<a href="#" class="btn-slide"><img src="images/fing2.jpg" height="30px" width="20px"><font size="2" color="#0000CC">Login</font></a>
+</p>
+
+
+<!-- HEADER
+================================================== -->
+<div class="row">	
+		<div class="four columns">
+			<div class="logo">
+				<a href="index.html">
+				<img src="images/Celebration venue/logo.png" width="180px" style="margin-top:-10px" height="28px">
+				</a>			</div>
+		</div>
+		<div class="eight columns noleftmarg">		
+			<nav id="nav-wrap">
+				<ul class="nav-bar sf-menu">
+				
+					<li class="current">
+					<a href="index.html">Home</a>
+						<!--<ul>
+												
+						<li><a href="index2.html">Without slider</a></li>						
+						</ul>-->
+					</li>
+					
+					<li>
+					<a href="portofolio2.html">Gallery</a>
+						<!--<ul>
+						<li><a href="portofolio2.html">Party Plot</a></li>
+						<li><a href="portofolio2.html">Banquet</a></li>
+						<li><a href="portofolio2.html">Community Hall</a></li>						
+						<!--<li><a href="portofoliodetail.html">Project Details</a></li>
+						</ul>-->
+					</li>
+					
+					<!--<li>
+					<a href="#">Blog</a>
+						<ul>
+						<li><a href="blogpage1.html">Blog page style 1</a></li>
+						<li><a href="blogpage2.html">Blog page style 2</a></li>
+						<li><a href="blogpage3.html">Blog page style 3</a></li>
+						<li><a href="blogsinglepost.html">Single post</a></li>
+						</ul>
+					</li>-->
+					
+					<li>
+					<a href="#">Pages</a>
+						<ul>
+						<li><a href="about.html">About us</a></li>
+						<li><a href="services.html">Services</a></li>						
+						</ul>
+					</li>
+					
+					<!--<li>
+					<a href="#">Features</a>
+						<ul>
+						<li><a href="columns.html">Columns</a></li>
+						<li><a href="elements.html">Elements</a></li>
+						<li><a href="typography.html">Typography</a></li>
+						</ul>
+					</li>-->
+					
+					<li>
+					<a href="contact.html">Contact</a>
+					</li>
+					<li>
+					<form >
+   						 <span class="form-wrapper"><input type="text" id="search" placeholder="Search your celebration spot..." required></span>
+   						 <span class="form-wrapper"> <input type="submit" value="go" id="submit"> </span>
+					</form>
+					</li>
+				</ul>
+		  </nav>
+		</div>	
+</div>
+<div class="clear">
+</div>
+<!-- SLIDER 
+================================================== -->
+<div id="ei-slider" class="ei-slider">
+	<ul class="ei-slider-large">
+		<li>
+		<img src="images/Celebration venue/1.jpg" alt="image01" class="responsiveslide">
+		<!--<div class="ei-title">
+			<h2>Dare to</h2>
+			<h3>Dream</h3>
+		</div>-->
+		</li>
+		<li>
+		<img src="images/Celebration venue/2.jpg" alt="image02" class="responsiveslide">
+		<!--<div class="ei-title">
+			<h2>Dare to</h2>
+			<h3>Hope</h3>
+		</div>-->
+		</li>
+		<li>
+		<img src="images/Celebration venue/3.jpg" alt="image03" class="responsiveslide">
+		<!--<div class="ei-title">
+			<h2>Dare to</h2>
+			<h3>Smile</h3>
+		</div>-->
+		</li>
+		<li>
+		<img src="images/Celebration venue/4.jpg" alt="image04" class="responsiveslide">
+		<!--<div class="ei-title">
+			<h2>Dare to</h2>
+			<h3>ask</h3>
+		</div> -->
+		</li>
+		<li>
+		<img src="images/Celebration venue/5.gif" alt="image05" class="responsiveslide">
+		<!--<div class="ei-title">
+			<h2>Dare to</h2>
+			<h3>refuse</h3>
+		</div>-->
+		</li>
+		<li>
+		<img src="images/Celebration venue/6.jpg" alt="image06" class="responsiveslide">
+		<div class="ei-title">
+			<!--<h2>Dare to</h2>
+			<h3>give</h3>-->
+		</div>
+		</li>
+		<li>
+		<img src="images/Celebration venue/comfy4.jpg" alt="image07" class="responsiveslide">
+		<div class="ei-title">
+			<!--<h2>Dare to</h2>
+			<h3>receive</h3>-->
+		</div>
+		</li>
+		<li>
+		<img src="images/Celebration venue/ahmedabad_town_hall.jpg" alt="image08" class="responsiveslide">
+		<div class="ei-title">
+			<!--<h2>Dare to </h2>
+			<h3>Love</h3>-->
+		</div>
+		</li>
+		<li>
+		<img src="images/Celebration venue/9.jpg" alt="image09" class="responsiveslide">
+		<div class="ei-title">
+			<!--<h2>Dare to</h2>
+			<h3>Forgive</h3>-->
+		</div>
+		</li>
+		<li>
+		<img src="images/Celebration venue/10.jpg" alt="image10" class="responsiveslide">
+		<div class="ei-title">
+			<!--<h2>Stand up & </h2>
+			<h3>Live</h3>-->
+		</div>
+		</li> 
+	</ul>
+	<!-- slider-thumbs -->
+	<ul class="ei-slider-thumbs">
+		<li class="ei-slider-element">Current</li>
+		<li><a href="#">Slide 1</a><img src="images/Celebration venue/150X59/1.jpg" class="slideshowthumb" alt="thumb01"/></li>
+		<li><a href="#">Slide 2</a><img src="images/Celebration venue/150X59/2.jpg" class="slideshowthumb" alt="thumb02"/></li>
+		<li><a href="#">Slide 3</a><img src="images/Celebration venue/150X59/3.jpg" class="slideshowthumb" alt="thumb03"/></li>
+		<li><a href="#">Slide 4</a><img src="images/Celebration venue/150X59/4.jpg" class="slideshowthumb" alt="thumb04"/></li>
+		<li><a href="#">Slide 5</a><img src="images/Celebration venue/150X59/5.gif" class="slideshowthumb" alt="thumb05"/></li>
+		<li><a href="#">Slide 6</a><img src="images/Celebration venue/150X59/6.jpg" class="slideshowthumb" alt="thumb06"/></li>
+		<li><a href="#">Slide 7</a><img src="images/Celebration venue/150X59/comfy4.jpg" class="slideshowthumb" alt="thumb07"/></li>
+		<li><a href="#">Slide 8</a><img src="images/Celebration venue/150X59/ahmedabad_town_hall.jpg" class="slideshowthumb" alt="thumb08"/></li>		
+		<li><a href="#">Slide 9</a><img src="images/Celebration venue/150X59/9.jpg" class="slideshowthumb" alt="thumb09"/></li>
+		<li><a href="#">Slide 10</a><img src="images/Celebration venue/150X59/10.jpg" class="slideshowthumb" alt="thumb10"/></li> 
+	</ul>	
+</div>
+<div class="minipause">
+</div>
+<!-- SUBHEADER
+================================================== -->
+<div id="subheader">
+	<div class="row">
+		<div class="twelve columns">
+			<p class="text-center">
+				 "Celebrating a Tradition for Tomorrow" 
+			</p>
+		</div>
+	</div>
+</div>
+<br>
+
+<!-- Search tab and service providers login 
+================================================== -->
+<ul class="ca-menu">
+	<li>
+		<article class="tabs">
+			<section id="tab1">
+				<h2><a href="#tab1">Category</a></h2>
+					<span>Categories</span>
+					<select>
+						<option value="All categories">All categories</option>
+						<option value="Banquets">Banquets</option>
+						<option value="Party Plots">Party Plots</option>
+						<option value="Clubs">Clubs</option>
+					</select>
+					<input name="submit" type="submit" id="bigbutton" value="Search" />
+			</section>
+			<section id="tab2">
+				<h2><a href="#tab2">Area</a></h2>
+						<span>Areas</span>
+						<select>
+							<option value="Maninagar">Maninagar</option>
+							<option value="Ghodasar">Ghodasar</option>
+							<option value="Naroda">Naroda</option>
+						</select>
+						<input name="submit" type="submit" id="bigbutton" value="Search" />
+			</section>
+			<section id="tab3">
+				<h2><a href="#tab3">Name</a></h2>
+					<div  class="form-wrappers cf">
+					<form>
+        				<input type="text" placeholder="Search by name..." required>
+        					<button type="submit">Search</button>
+   					  </form>
+					</div>
+			</section>
+		</article>
+	</li>
+
+	<li>
+		<div class="ca-menu">
+			<div id="option1">
+				<p>Service Provider's Login</p>
+			</div>
+			<form id="form" name="form" action="#" method="post">
+				<div id="block">
+					<label id="user" for="name"></label>
+					<input type="text" name="name" id="name" placeholder="Username" required/>
+					<label id="pass" for="password"></label>
+					<input type="password" name="password" id="password" placeholder="Password" required />
+					<input type="submit" id="submit" name="submit" value="Login"/>
+				</div>
+			</form>
+		</div>
+	</li>
+</ul>
+
+<div class="row">
+	<div class="twelve columns">
+		<div class="centersectiontitle">
+			<h4>Our Clients</h4>
+		</div>
+	</div>
+	<div class="twelve columns">
+		<div class="image_carousel fitcarousel">
+		<div id="foo2">
+				<img src="images/Celebration venue/clients/1.jpg" alt="" width="140" height="140"/>
+				<img src="images/Celebration venue/clients/2.jpg" alt="" width="140" height="140"/>
+				<img src="images/Celebration venue/clients/3.jpg" alt="" width="140" height="140"/>
+				<img src="images/Celebration venue/clients/4.jpg" alt="" width="140" height="140"/>
+				<img src="images/Celebration venue/clients/5.jpg" alt="" width="140" height="140"/>
+				<img src="images/Celebration venue/clients/6.jpg" alt="" width="140" height="140"/>
+				<img src="images/Celebration venue/clients/7.gif" alt="" width="140" height="140"/>
+				<img src="images/Celebration venue/clients/8.jpg" alt="" width="140" height="140"/>
+				<img src="images/Celebration venue/clients/9.jpg" alt="" width="140" height="140"/>
+				<img src="images/Celebration venue/clients/10.jpg" alt="" width="140" height="140"/>
+				<img src="images/Celebration venue/clients/11.jpg" alt="" width="140" height="140"/>
+				<img src="images/Celebration venue/clients/12.jpg" alt="" width="140" height="140"/>
+		  </div>
+			<div class="clearfix">
+			</div>
+			<a class="prev" id="foo2_prev" href="#"><span>prev</span></a>
+			<a class="next" id="foo2_next" href="#"><span>next</span></a>
+		</div>
+	</div>
+</div>
+<!-- CONTENT 
+================================================== -->
+<!--<div class="row">
+	<div class="twelve columns">
+		<div class="centersectiontitle">
+			<h4>What we do</h4>
+		</div>
+	</div>
+	<div class="four columns">
+		<h5>Photography</h5>
+		<p>
+			 Swine short ribs meatball irure bacon nulla pork belly cupidatat meatloaf cow. Nulla corned beef sunt ball tip, qui bresaola enim jowl. Capicola short ribs minim salami nulla nostrud pastrami.
+		</p>
+		<p>
+			<a href="#" class="readmore">Learn more</a>
+		</p>
+	</div>
+	<div class="four columns">
+		<h5>Artwork</h5>
+		<p>
+			 Swine short ribs meatball irure bacon nulla pork belly cupidatat meatloaf cow. Nulla corned beef sunt ball tip, qui bresaola enim jowl. Capicola short ribs minim salami nulla nostrud pastrami.
+		</p>
+		<p>
+			<a href="#" class="readmore">Learn more</a>
+		</p>
+	</div>
+	<div class="four columns">
+		<h5>Logos</h5>
+		<p>
+			 Swine short ribs meatball irure bacon nulla pork belly cupidatat meatloaf cow. Nulla corned beef sunt ball tip, qui bresaola enim jowl. Capicola short ribs minim salami nulla nostrud pastrami.
+		</p>
+		<p>
+			<a href="#" class="readmore">Learn more</a>
+		</p>
+	</div>
+</div>
+<div class="hr">
+</div>
+<!-- TESTIMONIALS 
+================================================== -->
+<div class="row">
+	<div class="twelve columns">
+		<div id="testimonials">
+			<blockquote>
+				<p>
+					 "Marriage enlarges the scene of our happiness and of our miseries. A marriage of love is pleasant, of interest, easy, and where both meet, happy. A happy marriage has in it all the pleasures of friendship, all the enjoyments of sense and reason. " <cite>Joseph Addison </cite>
+				</p>
+			</blockquote>
+			<blockquote>
+				<p>
+					 "The importance of the location cannot be stressed enough. We must understand that no-one will visit an event; however they may like it, if it is too far or improbable for them do so. Nobody likes to spend time traveling and hence, when deciding on your venue, you must keep this in mind. Have a look at your expected attendees and then choose a location that would seem appropriate to most of them. " <cite>Sandra - LA</cite>
+				</p>
+			</blockquote>
+			<!--<blockquote>
+				<p>
+					 "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco." <cite>Jason - MA</cite>
+				</p>
+			</blockquote>-->
+		</div>
+		<!--end testimonials-->
+	</div>
+</div>
+<!-- TWITTER
+================================================== -->
+<!--<div class="tweetarea">
+	<div class="tweettext">
+		<div class="row">
+			<div class="twelve columns">
+				<div class="tweet">
+				</div>
+			</div>
+		</div>
+	</div>
+</div>-->
+<!-- FOOOTER 
+================================================== -->
+<div id="footer">
+	<footer class="row">
+	<p class="back-top floatright">
+		<a href="#top"><span></span></a>
+	</p>
+	<div class="four columns">
+		<a href="about.html"><h1>ABOUT US</h1></a>
+		 Our goal is to keep clients satisfied!
+	</div>
+	<div class="four columns">
+		<h1>GET SOCIAL</h1>
+		<div class="social facebook">
+			<a href="https://www.facebook.com/"><img src="images/socialpack/facebooka.png"></a>
+		</div>
+		<div class="social twitter">
+			<a href="https://twitter.com/‎"><img src="images/socialpack/twittera.png"></a>
+		</div>
+		<div class="social linkdin">
+			<a href="https://in.linkedin.com"><img src="images/socialpack/linkdin.png"></a>
+		</div>
+		<!--<div class="social flickr">
+			<a href="#"></a>
+		</div>
+		<div class="social dribbble">
+			<a href="#"></a>
+		</div>-->
+	</div>
+	<div class="four columns">
+		<h1 class="newsmargin">NEWSLETTER</h1>
+	
+		<div class="row collapse newsletter floatright">
+			<div class="ten mobile-three columns">
+				<input type="text" class="nomargin" placeholder="Enter your e-mail address...">
+			</div>
+			<div class="two mobile-one columns">
+				<a href="newsletter" class="postfix button expand">GO</a>
+			</div>
+		</div> 
+	</div> 
+	</footer>
+</div>
+<!-- <div class="copyright">
+	<div class="row">
+		<div class="six columns">
+			 &copy;<span class="small"> Copyright 2013 Your Agency Name</span>
+		</div>
+		<div class="six columns">
+		<span class="small floatright"> Purchase "Studio Francesca" - #</span>
+		</div>
+	</div> -->
+</div>
+<!-- JAVASCRIPTS 
+================================================== -->
+<!-- Javascript files placed here for faster loading -->
+<script src="javascripts/foundation.min.js"></script>   
+<script src="javascripts/jquery.easing.1.3.js"></script>
+<script src="javascripts/elasticslideshow.js"></script>
+<script src="javascripts/jquery.carouFredSel-6.0.5-packed.js"></script>
+<script src="javascripts/jquery.cycle.js"></script>
+<script src="javascripts/app.js"></script>
+<script src="javascripts/modernizr.foundation.js"></script>
+<script src="javascripts/slidepanel.js"></script>
+<script src="javascripts/scrolltotop.js"></script>
+<script src="javascripts/hoverIntent.js"></script>
+<script src="javascripts/superfish.js"></script>
+<script src="javascripts/responsivemenu.js"></script>
+<script src="javascripts/jquery.tweet.js"></script>
+<script src="javascripts/twitterusername.js"></script>
+</body>
+</html>
